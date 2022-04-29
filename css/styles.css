@@ -1,56 +1,43 @@
+/* Змінні */
 :root {
+    --primary-background-color: rgba(255, 255, 255, 1);
     --primary-tex-color: rgba(117, 117, 117, 1);
-    --title-text-color: #2196F3;
+    --title-text-color: rgba(33, 33, 33, 1);;
 }
-z
-/* Тіло документа */
-body {
-    background-color: rgba(255, 255, 255, 1);
-    color: rgba(117, 117, 117, 1)
-};
 
+body {
+    background-color: var(--primary-background-color) ;
+    color: var(--primary-tex-color);
+    font-family: 'Raleway', sans-serif;
+}
 /* Логотип */
 .logo {
-    font-family: 'Raleway',sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: #212121;
     text-decoration: none;
-   }
-
+}
 .logo-accent {
     color: #2196F3;
 }
 
 /* Навігація */
-
-.list {
-    list-style: none;
-}
-
-/* Site nav */
 .site-nav .link {
-    color: #212121;
+    text-decoration: none;
+    color: rgba(33, 33, 33, 1);
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus
+ {
     color: #2196F3;
 }
 
-.section-title {
-    color: aqua;
+.contacts .link {
+    text-decoration: none;
+    color: rgba(117, 117, 117, 1);
 }
-
-/* Button */
-button {
-    color: var(--primary-tex-color);
-    background-color: var(--title-text-color);
-}
-
-/* Колір заголовку #FFFFFF
-   Колір героя #2F303A
-   Колір секції #E5E5E5 
-   Передостанньої -  background: #F5F4FA;
-*/
