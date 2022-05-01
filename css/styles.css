@@ -5,7 +5,8 @@
   --title-text-color: rgba(33,33,33,1);
   --background-color-hover: rgba(33,150,243,1);
   --button-background-color-normal:rgba(245, 244, 250, 1);
-  ;
+  --logo-color:rgba(33,33,33,1);
+  --logo-accent-color:rgba(33,150,243,1);
 }
 /* Тіло */
 body {
@@ -25,10 +26,10 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: rgba(33,33,33,1);
+  color: var(--logo-color);
 }
 .logo-accent {
-  color: rgba(33,150,243,1);
+  color: var(--logo-accent-color);
 }
 
 /* Навігація */
