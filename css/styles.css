@@ -7,6 +7,17 @@
   --button-background-color-normal:rgba(245, 244, 250, 1);
   --logo-color:rgba(33,33,33,1);
   --logo-accent-color:rgba(33,150,243,1);
+  --hero-background-color: rgba(47,48,58,1);
+  --site-nav-color:rgba(33,33,33,1);
+  --hero-title-color: rgba(255,255,255,1);
+  --hero-button-color: rgba(245,244,250,1);
+  --button-hover-color:rgba(255,255,255,1);
+  --team-background-color:rgba(245,244,250,1);
+  --footer-background-color:rgba(47,48,58,1);
+  --current-color:rgba(33,150,243,1);
+  --footer-logo-color: rgba(255,255,255,1);
+  --street-address-color:rgba(255,255,255,1);
+  --examples-button-background-color:rgba(245,244,250,1);
 }
 /* Тіло */
 body {
@@ -42,7 +53,7 @@ body {
   text-decoration: none;
 }
 .site-nav .link {
-  color: rgba(33,33,33,1);
+  color: var(--site-nav-color);
 }
 .header-contacts .link {
   color: inherit;
@@ -60,7 +71,7 @@ body {
 
 /* Герой */
 .hero {
-  background-color: rgba(47,48,58,1);
+  background-color: var(--hero-background-color);
 }
 .hero-title {
   font-weight: 900;
@@ -69,7 +80,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: rgba(255,255,255,1);
+  color: var(--hero-title-color)
 }
 
 .hero-button {
@@ -78,7 +89,7 @@ body {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: rgba(245,244,250,1);
+  color: var(--hero-button-color);
 }
 
 
@@ -93,7 +104,7 @@ body {
 .hero-button:hover,
 .examples-button:hover
  {
-  color: rgba(255,255,255,1);
+  color: var(--button-hover-color);
   background-color: var(--background-color-hover);
 }
 
@@ -121,7 +132,7 @@ body {
 
 /* Наша команда */
 .team {
-  background-color: rgba(245,244,250,1);
+  background-color: var(--team-background-color);
 }
 .title-general {
   color: var(--title-text-color);
@@ -150,7 +161,7 @@ body {
 /*  Адреса */
 
 .footer {
-  background-color: rgba(47,48,58,1);
+  background-color: var(--footer-background-color);
 }
 
 .footer-logo {
@@ -160,7 +171,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: rgba(255,255,255,1);
+  color: var(--footer-logo-color);
 }
 
 .street-address {
@@ -170,7 +181,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   text-align: left;
-  color: rgba(255,255,255,1);
+  color: var(--street-address-color);
 }
 
 .footer-contacts .link{
@@ -184,7 +195,7 @@ body {
 }
 
 .site-nav >li .current {
-  color: rgba(33,150,243,1);
+  color: var(--current-color);
 }
 
 /* Портфоліо */
@@ -193,7 +204,7 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  background-color: rgba(245,244,250,1);
+  background-color: var(--examples-button-background-color)
 }
 .examples-title {
   font-weight: 700;
