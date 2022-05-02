@@ -27,6 +27,10 @@ body {
   background-color: var(--primary-background-color) ;
 }
 
+address {
+  font-style: normal;
+}
+
 .list-general {
   list-style: none
 }
@@ -84,6 +88,7 @@ body {
 }
 
 .hero-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -91,8 +96,6 @@ body {
   letter-spacing: 0.06em;
   color: var(--hero-button-color);
 }
-
-
 
 .hero-button,
 .examples-button {
@@ -116,6 +119,7 @@ body {
 }
 
 .title-preference {
+  text-transform: uppercase;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -124,7 +128,6 @@ body {
 
 }
 .text-preference {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -152,7 +155,6 @@ body {
 }
 
 .worker-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -175,7 +177,6 @@ body {
 }
 
 .street-address {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -185,7 +186,6 @@ body {
 }
 
 .footer-contacts .link{
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -200,6 +200,7 @@ body {
 
 /* Портфоліо */
 .examples-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -215,7 +216,6 @@ body {
   color: var(--title-text-color);
 }
 .examples-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
